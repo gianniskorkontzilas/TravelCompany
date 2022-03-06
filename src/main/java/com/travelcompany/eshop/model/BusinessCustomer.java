@@ -11,7 +11,7 @@ public class BusinessCustomer extends Customer { ;
     public static final BigDecimal BUSINESSCUSTOMERDISCOUNT = new BigDecimal("0.10");
 
     public BusinessCustomer(String Firstname, String Lastname,String Email,String Address, Date Nationality, BigDecimal balance) {
-        super(Firstname, Lastname, Email, Address, Nationality, balance);
+        super(Firstname, Lastname, Email, Address, String.valueOf(Nationality), balance);
     }
 
 
